@@ -1,0 +1,7 @@
+Paleta de cores minimalistas:
+
+#020204 -> preto
+#2c2c2c -> chumbo
+#75706f -> cinza basicão 
+#acaba9 -> inox 
+#eaeaea -> branco gelo

@@ -1,0 +1,253 @@
+@import url('https://fonts.cdnfonts.com/css/albra-display-trial');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Albra Book TRIAL', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.logo {
+  cursor: default;
+  font-size: 40pt;
+}
+
+hr {
+  width: 500px;
+  margin: auto;
+}
+
+.heroContent {
+  margin-left: -30px;
+}
+
+.heroText {
+  width: 500px;
+  margin-top: 120px;
+  margin-left: 170px;
+  position: absolute;
+  font-size: 22pt;
+  cursor: default;
+}
+
+.heroText button {
+  cursor: pointer;
+  padding: 17px;
+  margin-left: 320px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.heroText button:hover {
+  background-color:#000;
+  color: #fff;
+  transition: .3s;
+}
+
+.heroImg {
+  margin-left: 100px;
+}
+
+.heroImg img {
+  width: 340px;
+  border-radius: 10px;
+}
+
+.heroImg img:first-child {
+  width: 340px;
+  margin-left: 50rem;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.heroImg .secondImg {
+  width: 170px;
+  margin: 50px;
+  margin-left: 82rem;
+}
+
+.heroContent img:last-child {
+  width: 242px;
+  margin-top: -22px;
+  margin-left: 82rem;
+}
+
+.aboutUs {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.aboutUsText {
+  font-size: 22pt;
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 500px;
+  cursor: default;
+}
+
+.aboutUsText h2 {
+  font-size: 26pt;
+  margin-left: 16rem;
+  margin-top: 50px;
+}
+
+.aboutUs img {
+  width: 700px;
+  border-radius: 10px;
+}
+
+.aboutUs .imgBg {
+  position: absolute;
+  margin-left: -210px;
+  margin-top: 10px;
+  rotate: 43deg;
+  width: 400px;
+}
+
+.ourWork {
+  display: flex;
+  margin-left: 170px;
+  margin-top: 200px;
+}
+
+.ourWorkText {
+  font-size: 22pt;
+  width: 230px;
+  margin-left: -80px;
+  margin-right: 100px;
+  cursor: default;
+}
+
+.ourWorkText h1 {
+  margin-left: 20px;
+  width: 210px;
+}
+
+.OWparagraph {
+  padding-left: 20px;
+  border-left: 2px solid;
+}
+
+.ourWorkImg {
+  position: absolute;
+  margin-left: 230px;
+}
+
+.ourWorkImg img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.ourWorkText button {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.ourWorkText button:hover {
+  background-color:#000;
+  color: #fff;
+  transition: .3s;
+}
+
+.workWithUs {
+  display: flex;
+  margin-top: 240px;
+  margin-left: 250px;
+}
+
+.WWUText {
+  font-size: 22pt;
+  width: 500px;
+}
+
+.workInputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: -32px;
+  margin-bottom: -20px;
+}
+
+.workInputs input {
+  cursor: pointer;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 25px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.workInputs input:hover {
+  background-color:#000;
+  color: #fff;
+  transition: .3s;
+}
+
+.contactForm {
+  position: relative;
+  margin-top: 14rem;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  width: 20%;
+} 
+
+.contactForm form input,
+.contactForm form textarea {
+  padding: 4px 0 20px 10px;
+  margin-bottom: 10px;
+}
+
+.contactForm form select {
+  position: absolute;
+  margin-top: 1px;
+  padding: 10px;
+  margin-left: 280px;
+}
+
+.contactForm form textarea {
+  width: 427px;
+  margin-top: 20px;
+}
+
+.contactForm input, 
+.contactForm textarea,
+.contactForm select {
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.contactForm input:focus, 
+.contactForm textarea:focus,
+.contactForm select:focus {
+  outline: none;
+}
+
+.contactForm input[type="submit"] {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  margin-top: -48px;
+  padding: 10px;
+  width: 100px;
+  margin-left: 450px;
+} 
